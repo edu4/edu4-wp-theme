@@ -1,0 +1,81 @@
+/*
+ * Theme Name: Edu4
+ * Theme URI: http://www.education4.org
+ * Description: Theme for the Edu4 project
+ * Version: 1.0
+ * Author: mxc
+ * Author URI: http://www.education4.org
+ * Template: bp-default
+ * Tags: buddypress, edu4
+ * 
+ */
+
+body, #wp-admin-bar .padder 
+{
+    background: white;
+}
+
+#navigation {
+    text-align: left;
+}
+
+#nav {
+    margin: 40px 20px 0 0;
+}
+
+#header #search-bar {
+    margin-top: -25px;
+    float: right;
+} 
+
+.home-page .pagetitle
+{
+    display: none;
+}
+
+#header h1 a {
+    color: #00EE00 !important;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+#wp-admin-bar .padder
+{
+    background: #3E78B3;
+}
+
+/* things that go 100% of screen */
+body, #wp-admin-bar .padder 
+{
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 960px;
+}
+
+/* things that we want centered */
+div#container, div#navigation
+{
+    width: 80%;
+    margin: 0 auto;
+    min-width: 960px;
+}
+
+
+
+#header 
+{
+    background: #EDEBE1;
+    color: #000000;
+    height: auto;
+    margin-bottom: 20px;
+    padding-top: 25px;
+    position: relative;
+    z-index: 1000;
+}
+
+#logo a
+{
+    color: #000000;
+}
+
+
