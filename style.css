@@ -93,3 +93,7 @@ div#container, #header, #footer
 {
     clear: both;
 }
+.warn
+{
+    color: red;
+}
