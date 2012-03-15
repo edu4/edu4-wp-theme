@@ -10,38 +10,9 @@
  * 
  */
 
-body, #wp-admin-bar .padder 
+body, #wp-admin-bar .padder
 {
     background: white;
-}
-
-#navigation {
-    text-align: left;
-}
-
-#nav {
-    margin: 40px 20px 0 0;
-}
-
-#header #search-bar {
-    margin-top: -25px;
-    float: right;
-} 
-
-.home-page .pagetitle
-{
-    display: none;
-}
-
-#header h1 a {
-    color: #00EE00 !important;
-    font-size: 130%;
-    font-weight: bold;
-}
-
-#wp-admin-bar .padder
-{
-    background: #3E78B3;
 }
 
 /* things that go 100% of screen */
@@ -53,29 +24,72 @@ body, #wp-admin-bar .padder
 }
 
 /* things that we want centered */
-div#container, div#navigation
+div#container, #header, #footer
 {
     width: 80%;
     margin: 0 auto;
     min-width: 960px;
+    max-width: 1000px;
 }
 
-
+#wp-admin-bar .padder
+{
+    background: #333333;
+}
 
 #header 
 {
-    background: #EDEBE1;
-    color: #000000;
-    height: auto;
+    background:url("img/michaelwhitney_flickr_banner.jpg") no-repeat scroll left top transparent;
+    height: 108px;
     margin-bottom: 20px;
+    padding:0;   
     padding-top: 25px;
     position: relative;
     z-index: 1000;
 }
 
-#logo a
+#header #search-bar 
 {
-    color: #000000;
+    margin-top: -.5em;
+    padding-right: .5em;
+    float: right;
+} 
+
+
+#header h1 a {
+    color: #FFB800 !important;
+    font-size: 260%;
+    font-weight: bold;
+    padding-top: 22px;
+    padding-left: 20px;
+    float: left;
+}
+
+#tagline
+{
+    float: left;
+    padding-left: 1em;
+}
+
+#navigation
+{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    margin: 0;
+    text-align: inherit;
+    width: auto !important; 
 }
 
 
+.home-page .pagetitle
+{
+    display: none;
+}
+
+
+/** generic styles */
+.clear-all
+{
+    clear: both;
+}
