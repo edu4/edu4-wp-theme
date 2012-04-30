@@ -23,7 +23,7 @@
 
 		<div id="header">
     		<h1 id="logo" role="banner"><a href="<?php echo home_url(); ?>" title="<?php _ex( 'Home', 'Home page banner link title', 'buddypress' ); ?>"><?php bp_site_name(); ?></a></h1>
-    		<h2 id="tagline">4 children<br />4 society</br>4 the future</h2>
+    		<h2 id="tagline"><?php echo str_replace(",","<br />", get_bloginfo ( 'description' ));  ?></h2>
 			<div id="navigation" role="navigation">
 				<?php wp_nav_menu( array( 'container' => false, 'menu_id' => 'nav', 'theme_location' => 'primary', 'fallback_cb' => 'bp_dtheme_main_nav' ) ); ?>
             </div><!-- navigation -->

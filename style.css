@@ -69,6 +69,7 @@ div#container, #header, #footer
 {
     float: left;
     padding-left: 1em;
+    margin-top: -0.75em;
 }
 
 #navigation
